@@ -6,7 +6,22 @@
     <language>en-us</language>
     <author>Daniel Alan Miller</author>
     <rights>Copyright (c) 2008 - 2013, Daniel Alan Miller; all rights reserved.</rights>
-    <updated>2013-08-18 00:00:00 &#43;0000 UTC</updated>
+    <updated>2013-08-29 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>Advanced find and replace one liner</title>
+      <link>http://localhost:1313/post/advanced-find-replace</link>
+      <pubDate>Thu, 29 Aug 2013 00:00:00 UTC</pubDate>
+      <author>Daniel Alan Miller</author>
+      <guid>http://localhost:1313/post/advanced-find-replace</guid>
+      <description>&lt;p&gt;This one-liner will move all files that meet a case-insensitive regular expression to the desired location and only update it if newer than the destination (via cp&amp;rsquo;s -u)&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;
+find . -regextype &amp;lsquo;posix-extended&amp;rsquo; -iregex &amp;ldquo;.*.(jpg|jpeg|png)&amp;rdquo; &lt;br&gt;
+-exec cp -u -v -t ~/path/to/dest {} +
+&lt;/code&gt;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>init blog</title>

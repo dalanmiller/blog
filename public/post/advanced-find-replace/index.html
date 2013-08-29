@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <head>
-	<title>init blog | Le Blog</title>
+	<title>Advanced find and replace one liner | Le Blog</title>
 	
 	<link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/blog.css">
@@ -17,7 +17,7 @@
 
 
 <div id="hero-img">
-	<img src="/images/blurred_lines.jpeg" class="img-responsive">
+	<img src="" class="img-responsive">
 </div>
 
 <div class="container">	
@@ -25,19 +25,14 @@
 		<div class="col-lg-8 col-lg-offset-2">
 			<article id="post-content">
 				<header>
-					<h1 id="post-title">init blog</h1>
+					<h1 id="post-title">Advanced find and replace one liner</h1>
 				</header>
-					<p>It&rsquo;s about time that I got started blogging again.</p>
+					<p>This one-liner will move all files that meet a case-insensitive regular expression to the desired location and only update it if newer than the destination (via cp&rsquo;s -u)</p>
 
-<p>It&rsquo;s been a long time coming and I started out wanting to run my new blog site on <a href="http://jekyllrb.com/">Jekyl</a> or <a href="http://ringce.com/hyde">Hyde</a> but I finally settled on the very nascent <a href="http://hugo.spf13.com/">Hugo</a> to which I hope I can contribute. As well I will be writing a few articles on getting started with Hugo while also making the documentation better, because it needs some work.</p>
-
-<p>Part of this is learning Google&rsquo;s new-ish lagnguage called <a href="http://golang.org/">Go</a>. Mostly because it isn&rsquo;t Javascript and it&rsquo;s very fast and easy to deploy.</p>
-
-<p>I&rsquo;d like to also keep stretching design and creativity muscles and not just pretend like I can. Also it&rsquo;s important to <a href="https://medium.com/tech-talk/d5f8051afce2">Always Be Coding</a>.</p>
-
-<p>Plus, static site blogs are what all the cool kids are doing and <a href="http://instagram.com/p/YdIsh_nLfo/">I&rsquo;m so cool</a>.</p>
-
-<p>So here goes.</p>
+<p><code>
+find . -regextype &lsquo;posix-extended&rsquo; -iregex &ldquo;.*.(jpg|jpeg|png)&rdquo; <br>
+-exec cp -u -v -t ~/path/to/dest {} +
+</code></p>
 
 			</article>
 		</div>
