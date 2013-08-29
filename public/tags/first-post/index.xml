@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+      <title>First-Post on  </title>
+    <link>http://localhost:1313tags/first-post/index.xml</link>
+    <language>en-us</language>
+    <author>Daniel Alan Miller</author>
+    <rights>Copyright (c) 2008 - 2013, Daniel Alan Miller; all rights reserved.</rights>
+    <updated>2013-08-18 00:00:00 &#43;0000 UTC</updated>
+    
+    <item>
+      <title>init blog</title>
+      <link>http://localhost:1313/post/init-blog</link>
+      <pubDate>Sun, 18 Aug 2013 00:00:00 UTC</pubDate>
+      <author>Daniel Alan Miller</author>
+      <guid>http://localhost:1313/post/init-blog</guid>
+      <description>&lt;p&gt;It&amp;rsquo;s about time that I got started blogging again.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s been a long time coming and I started out wanting to run my new blog site on &lt;a href=&#34;http://jekyllrb.com/&#34;&gt;Jekyl&lt;/a&gt; or &lt;a href=&#34;http://ringce.com/hyde&#34;&gt;Hyde&lt;/a&gt; but I finally settled on the very nascent &lt;a href=&#34;http://hugo.spf13.com/&#34;&gt;Hugo&lt;/a&gt; to which I hope I can contribute. As well I will be writing a few articles on getting started with Hugo while also making the documentation better, because it needs some work.&lt;/p&gt;
+
+&lt;p&gt;Part of this is learning Google&amp;rsquo;s new-ish lagnguage called &lt;a href=&#34;http://golang.org/&#34;&gt;Go&lt;/a&gt;. Mostly because it isn&amp;rsquo;t Javascript and it&amp;rsquo;s very fast and easy to deploy.&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;d like to also keep stretching design and creativity muscles and not just pretend like I can. Also it&amp;rsquo;s important to &lt;a href=&#34;https://medium.com/tech-talk/d5f8051afce2&#34;&gt;Always Be Coding&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Plus, static site blogs are what all the cool kids are doing and &lt;a href=&#34;http://instagram.com/p/YdIsh_nLfo/&#34;&gt;I&amp;rsquo;m so cool&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;So here goes.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

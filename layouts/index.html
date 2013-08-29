@@ -1,0 +1,18 @@
+{{ template "chrome/header.html" . }}
+	<div class="container">
+		<div class="row">
+			<div class="col-md-2">
+				<aside id="sidebar">
+					<h2>Daniel Alan Miller</h2>
+				<aside>
+			</div>
+			<div class="col-md-4 col-md-offset-1"> 
+				<section>
+					{{ range .Data.Pages }}
+        				{{ .Render "summary" }}
+		    		{{ end }}
+				</section> 
+			</div>
+		</div>
+	</div>
+
